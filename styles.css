@@ -21,13 +21,12 @@ body {
 }
  main{
    background-color: rgba(255, 254, 255, 0.5);
-   width: 40%;
-   height: 600px;
+   width: 500px;
+   height: 540px;
    margin:0 auto;
-   padding-top: 10px;
+   padding: 10px 20px;
    }
    
-
 a {
   text-decoration: none;
 }
@@ -78,9 +77,9 @@ header h1 {
 }
 
 .output {
-  font-size: x-large;
+  font-size: 25px;
   font-weight: 600;
-  margin: 2rem 0;
+  margin: 1rem 0;
   color:#0A1931;
   
 }
@@ -93,6 +92,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+  margin-top: 50px;
 }
 
 footer p {
@@ -100,3 +100,32 @@ footer p {
   text-align: center;
   color: crimson;
 }
+
+
+@media (max-width:700px){
+  main{
+       width: 350px;
+       
+  }
+}
+ @media (max-width: 550px){
+  main{
+       width: 300px;
+       height:500px;
+  }
+.output{
+font-size: 15px;
+
+}
+ }
+
+ @media(max-width:320px){
+   main{
+     width:250px;
+     }
+     .output{
+      font-size: 12px;
+      
+      }
+    
+ }
